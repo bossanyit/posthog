@@ -1,12 +1,10 @@
 # Posthog plugin
 
-![Pub Version](https://img.shields.io/pub/v/posthog_flutter)
-
-Flutter plugin to support iOS, Android and Web sources at https://posthog.com.
+Flutter plugin to support iOS, Android and Web sources at https://posthog.com, forked from posthog-flutter plugin.
 
 ## Usage
 
-To use this plugin, add `posthog_flutter` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
+To use this plugin, add `posthog` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
 ### Supported methods
 
@@ -29,7 +27,7 @@ To use this plugin, add `posthog_flutter` as a [dependency in your pubspec.yaml 
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:posthog_flutter/posthog_flutter.dart';
+import 'package:posthog/posthog.dart';
 
 void main() => runApp(MyApp());
 
